@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="inputs">
+          <textarea class="from-text" placeholder="Enter Text..."></textarea>
+          <textarea class="to-text" placeholder="Translating..."></textarea>
+        </div>
+
+        <ul class="icons">
+          <li class="icons from-text">
+            <i id="fromIcon" class="fas fa-volume-up"></i>
+            <i id="fromIcon" class="fas fa-copy"></i>
+            <select class="select from-text">
+              <!-- <option value="en-US">English</option>
+                        <option value="hi-IN">Hindi</option>
+                        <option value="ne-NP">Nepal</option> -->
+            </select>
+          </li>
+          <i class="fas fa-exchange-alt" id="exchange"></i>
+          <li class="icons to-text">
+            <select class="select to-text">
+              <!-- <option value="en-US">English</option>
+                        <option value="hi-IN">Hindi</option>
+                        <option value="ne-NP">Nepal</option> -->
+            </select>
+            <i id="toIcon" class="fas fa-volume-up"></i>
+            <i id="toIcon" class="fas fa-copy"></i>
+          </li>
+        </ul>
+      </div>
+      <button class="translate-btn">แปลภาษา</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
